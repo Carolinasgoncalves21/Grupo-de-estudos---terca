@@ -1,0 +1,17 @@
+body {
+    background-color: violet;
+    text-align: justify;
+ }
+
+h1 {
+    text-align: right;
+    color:blueviolet
+}
+
+h2 {text-align: center;
+    color: red 
+}
+
+p {
+    font-size: 30px;
+}
