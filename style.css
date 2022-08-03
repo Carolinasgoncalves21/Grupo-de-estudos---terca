@@ -1,10 +1,10 @@
 body {
-    background-color: #dfb9d8;
+    background-color: rgb(223,185,216);
     text-align: justify;
 }
 
 h1 {
-    text-align: right;
+    text-align: center;
     color: #bb87ca
 }
 
@@ -13,8 +13,14 @@ h2 {
     color: red
 }
 
+h3 {font-size: 30px;
+    text-align: center;
+    color: #a753ba}
+
 p {
-    font-size: 30px;
+    font-size: 25px;
     color: white
 }
+
+span { color: rgb(133, 11, 11)}
 
