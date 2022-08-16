@@ -5,12 +5,12 @@ body {
 
 h1 {
     text-align: center;
-    color: #bb87ca
+    color: #a106cc
 }
 
 h2 {
     text-align: center;
-    color: #bb87ca;
+    color: #a232c1;
     padding: 40px;
     margin: 30px;
     border: 10px solid red;
@@ -18,7 +18,7 @@ h2 {
 
 h3 {font-size: 30px;
     text-align: center;
-    color: #a753ba}
+    color: #941ab0}
 
 p {
     font-size: 25px;
@@ -36,5 +36,34 @@ span { color: rgb(133, 11, 11)}
 #imagem-2 {
     margin-right: 40%;
     border: dotted red;
+    margin-left: 600px;
+}
+.seletores {
+    background-color: papayawhip;
 }
 
+.itens {
+        margin-left: 25%;
+}
+
+li::marker {
+    content: "❤";
+    color: blue;
+    font-size: 25px;
+}
+
+.imagem-3 {
+    height: 5%;
+}
+
+ul {
+    width: 300px;    
+    display: inline-block;
+    vertical-align: top;
+    padding: 10px;
+    margin-left: 20%;
+}
+   
+.alunos {
+    background: papayawhip;
+}
