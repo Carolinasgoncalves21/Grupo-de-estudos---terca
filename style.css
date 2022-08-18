@@ -40,17 +40,20 @@ span { color: rgb(133, 11, 11)}
 }
 .seletores {
     background-color: papayawhip;
-}
+   }
 
 .itens {
         margin-left: 25%;
+        type: "a";
+        start: "f";
 }
 
-li::marker {
+*/ li::marker {
     content: "❤";
     color: blue;
     font-size: 25px;
 }
+/*
 
 .imagem-3 {
     height: 5%;
