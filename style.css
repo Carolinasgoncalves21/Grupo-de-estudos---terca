@@ -1,11 +1,12 @@
 body {
-    background-color: rgb(223,185,216);
+    background-color: rgb(223, 185, 216);
     text-align: justify;
 }
 
 h1 {
     text-align: center;
-    color: #a106cc
+    color: #a106cc;
+    text-decoration: underline wavy royalblue;
 }
 
 h2 {
@@ -16,16 +17,20 @@ h2 {
     border: 10px solid red;
 }
 
-h3 {font-size: 30px;
+h3 {
+    font-size: 30px;
     text-align: center;
-    color: #941ab0}
+    color: #941ab0
+}
 
 p {
     font-size: 25px;
     color: white
 }
 
-span { color: rgb(133, 11, 11)}
+span {
+    color: rgb(133, 11, 11)
+}
 
 #imagem-1 {
     width: 10%;
@@ -36,37 +41,41 @@ span { color: rgb(133, 11, 11)}
 #imagem-2 {
     margin-right: 40%;
     border: dotted red;
-    margin-left: 600px;
+    margin-left: 300px;
 }
+
 .seletores {
     background-color: papayawhip;
+    display: inline-block;
    }
 
 .itens {
-        margin-left: 25%;
-        type: "a";
-        start: "f";
+    margin-right: 20px;
+    padding-right: 20px;
+    type: "a";
+    start: "f";
 }
 
-*/ li::marker {
+li::marker {
     content: "❤";
     color: blue;
-    font-size: 25px;
+    font-size: 15px;
 }
-/*
+
 
 .imagem-3 {
-    height: 5%;
+    height: 50%;
+    width: 50%;
+    display: inline-block;
 }
 
-ul {
-    width: 300px;    
-    display: inline-block;
+ol {
     vertical-align: top;
-    padding: 10px;
-    margin-left: 20%;
+    margin-right: 20px;
+    padding-right: 50px;
+    display: inline-block;
 }
-   
+
 .alunos {
-    background: papayawhip;
+    display: inline-block;
 }
